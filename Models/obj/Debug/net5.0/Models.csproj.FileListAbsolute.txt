@@ -1,0 +1,12 @@
+D:\projects\netcore\Models\bin\Debug\net5.0\Models.deps.json
+D:\projects\netcore\Models\bin\Debug\net5.0\Models.dll
+D:\projects\netcore\Models\bin\Debug\net5.0\ref\Models.dll
+D:\projects\netcore\Models\bin\Debug\net5.0\Models.pdb
+D:\projects\netcore\Models\obj\Debug\net5.0\Models.csprojAssemblyReference.cache
+D:\projects\netcore\Models\obj\Debug\net5.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\netcore\Models\obj\Debug\net5.0\Models.AssemblyInfoInputs.cache
+D:\projects\netcore\Models\obj\Debug\net5.0\Models.AssemblyInfo.cs
+D:\projects\netcore\Models\obj\Debug\net5.0\Models.csproj.CoreCompileInputs.cache
+D:\projects\netcore\Models\obj\Debug\net5.0\Models.dll
+D:\projects\netcore\Models\obj\Debug\net5.0\ref\Models.dll
+D:\projects\netcore\Models\obj\Debug\net5.0\Models.pdb
