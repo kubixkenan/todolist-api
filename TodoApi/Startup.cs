@@ -35,6 +35,7 @@ namespace TodoApi
         {
 
             services.AddControllers();
+            services.AddCors();
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("default")));
 
             services.AddScoped<ITodoService, TodoService>();
@@ -119,6 +120,12 @@ namespace TodoApi
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors(x => x
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .SetIsOriginAllowed(origin => true)
+                .AllowCredentials());
 
             app.UseAuthentication();
             app.UseAuthorization();
